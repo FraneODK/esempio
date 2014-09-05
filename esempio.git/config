@@ -5,3 +5,6 @@
 	sharedrepository = 1
 [receive]
 	denyNonFastforwards = true
+[remote "origin"]
+	url = git@github.com:FraneODK/esempio.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
